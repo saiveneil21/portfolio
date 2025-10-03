@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home" style="--i: 1">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#project" style="--i: 3">Academic Projects</a>
+        <a href="#services" style="--i: 4">My Work</a>
+        <a href="#skills" style="--i: 5">Skills</a>
+        <a href="#contact" style="--i: 6">Contact</a>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Veneil Sai Indla</h1>
+        <h3>And I'm a <span class="typed"></span></h3>
+        <p>A Mechanical Engineering undergrad having 3 academia projects and 2 months 
+          of internship experience as a Mechanical Design Engineer.</p>
+       
+        <div class="home-sci">
+          <a href="https://www.linkedin.com/in/veneilsaiindla/" style="--i: 9"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=DbdZcNkAAAAJ&hl=en" style="--i: 8"><i class="bx bxl-google"></i></a>
+          <a href="https://github.com/saiveneil21" style="--i: 10"><i class="bx bxl-github"></i></a>
+        </div>
+        <a href="#about" class="btn-box">More About me</a>
+      </div>
+      <div class="home-img">
+        <img src="Screenshot.jpg"/>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+       <img src="Aboutme.jpg" alt="Portfolio Image" class="bordered-image" />
+      </div>
+      <div class="about-text">
+        <br><br><br><br><br><br>
+        <h2>About <span>Me</span></h2>
+        <br>
+        <h4>Mechanical Engineer</h4>
+        <p>
+          Hi! I’m Veneil Sai Indla, a passionate and driven Mechanical Engineering undergrad from 
+          MVSR Engineering College, Hyderabad. My interests lie at the intersection of mechanical 
+          design, computational mechanics, and machine learning applications in engineering. 
+          With hands-on experience in CAD Modeling, Finite Element Analysis, and reverse engineering, 
+          I’ve contributed to real-world engineering problems through internships at MMR Mining Equipments 
+          and Rinex.My academic journey is marked by impactful projects, including a published research paper 
+          on gearbox modeling using machine learning and a comparative study of composite propeller shafts.As 
+          I continue to evolve as an engineer, I remain committed to learning, collaboration, and using 
+          technology to solve complex multidisciplinary challenges. 
+        </p>
+        <a href="#contact" class="btn-box">Contact Me</a>
+      </div>
+    </section>
+    <section>
+      <div class="portfolio" id="project">
+        <div class="main-text">
+          <h2>My <span>Projects</span></h2>
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="p1.jpg" class="pro" />
+              <div class="layer">
+                <h5>Modal Frequencies of Box Truss Model Gear Box Using Machine Learning</h5>
+                <p>
+                  This project focuses on replacing conventional closed-type cast iron gearbox 
+                  casings with a lightweight mild steel box truss design. The proposed structure 
+                  aims to reduce material usage, cost, and weight while sustaining vibrations 
+                  during operation. Structural, modal, and harmonic analyses were performed using 
+                  ANSYS alongside machine learning techniques to predict deformations and resonance 
+                  frequencies. Experimental validation with vibration testing confirmed the 
+                  feasibility of the mild steel truss casing under static and dynamic conditions. 
+                  The study demonstrates that the new design is safe, economical, and efficient for 
+                  practical gearbox applications
+                </p>
+                <a href="DAPCom 2024.pdf"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="p2.jpg" class="pro" />
+              <div class="layer">
+                <h5>Optimization of FDM Process Parameters for Enhanced Quality of PLA 3D Printed Component</h5>
+                <p>
+                  This study investigates the optimization of Fused Deposition Modelling (FDM) process parameters 
+                  to improve the quality of PLA 3D-printed components. Printing speed, layer thickness, and fill 
+                  density were selected as key variables, with surface roughness and hardness as performance 
+                  indicators. Using a Taguchi L9 orthogonal array with ANOVA and MRPI analysis, the optimal 
+                  parameter set was identified, resulting in a 35% improvement in hardness and 14.7% reduction 
+                  in surface roughness compared to the initial setup.
+                </p>
+                <a href="AMENT'2024 Research Article (Unpublished).pdf"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="ppp.jpg" class="pro" />
+              <div class="layer">
+                <h5>Design and Static Structural Analysis of Composite Propeller Shaft-A Comparative Study</h5>
+                <p>
+                This study presents the design and structural analysis of a composite propeller shaft as a 
+                lightweight alternative to conventional steel (SM45C) shafts. Carbon/epoxy, boron/epoxy, 
+                and E-glass/epoxy were evaluated using classical lamination theory, finite element 
+                simulations, and experimental validation for a maximum torque of 400 N-m. Results 
+                indicate that carbon/epoxy offers the best balance of strength, torsional rigidity, 
+                and weight reduction—achieving nearly 75% lower mass than steel, demonstrating the 
+                potential of composites to improve fuel efficiency and payload capacity in automotive 
+                applications.
+                </p>
+                <a href="SIAT'2026 Research Article (In Press).pdf"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Work</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="bx bx-code" style="color: #00eeff"></i>
+              <h2>Programming</h2>
+              <p>
+                Programming is the art of writing code to create software applications that solve real-world problems. It involves logic, creativity, and a deep understanding of algorithms and data structures. Mastering programming languages like Python, Java, and C++ can unlock endless possibilities. Whether for web development, game creation, or AI, programming is a gateway to innovation and technology.
+              </p>
+              <a href="#" class="read">Learn more</a>
+            </div>
+            <div>
+              <i class="bx bx-crop" style="color: #00eeff"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                Our UI/UX design services focus on creating visually appealing and highly intuitive user interfaces that enhance user experience. We prioritize user-centric designs to ensure seamless navigation and interaction. Utilizing modern design principles and the latest tools, we craft responsive layouts that look great on any device.Our approach combines aesthetics with functionality, aiming to engage users and leave a lasting impression. 
+              </p>
+              <a href="#" class="read">Learn more</a>
+            </div>
+            <div>
+              <i class="bx bxl-apple" style="color: #00eeff"></i>
+              <h2>App Development</h2>
+              <p>
+                Our app development services turn your ideas into high-performance, user-friendly apps. Utilizing the latest technology and intuitive design, we create seamless experiences for both Android and iOS platforms. From concept to launch, we ensure your app stands out in the crowded market. Transform your vision into an exceptional mobile experience with our expertise.
+              </p>
+              <a href="#" class="read">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="skillbox">
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar">
+            <i class="fa fa-cogs" style="color: #c95d2e"></i>
+            <div class="info">
+              <span>AutoCAD</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa fa-cogs" style="color: #147bbc"></i>
+            <div class="info">
+              <span>SolidWorks</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa fa-cogs" style="color: #b0bc1e"></i>
+            <div class="info">
+              <span>CATIA</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa fa-cogs" style="color: #c32ec9"></i>
+            <div class="info">
+              <span>Ansys</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa fa-cogs" style="color: #69bcbc"></i>
+            <div class="info">
+              <span>MATLAB</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">88%</div>
+            <div class="text">Team Work and Collabration</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">86%</div>
+            <div class="text">Leadership and Initiative</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Creativity and Innovation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together </h4>
+        <p>I’m always excited to discuss innovative ideas, potential projects, or internship 
+          opportunities in the field of mechanical engineering. Whether you have a question, 
+          feedback, or collaboration in mind, feel free to reach out. I’m open to networking 
+          with professionals, fellow students, and organizations passionate about engineering solutions.
+          <br>
+          I look forward to connecting and exploring opportunities to create, learn, and grow 
+          together.</p>
+        <div class="contact-list">
+          <li><i class='bx bxs-send'></i>saiveneil21@gmail.com</li>
+          <li><i class='bx bxs-phone'></i>+91 9573903232</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/veneilsaiindla/" style="--i: 9"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=DbdZcNkAAAAJ&hl=en" style="--i: 8"><i class="bx bxl-google"></i></a>
+          <a href="https://github.com/saiveneil21" style="--i: 10"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xeorjqzq" method="POST">
+          <input type="text" placeholder="Enter your Name" required>
+          <input type="email" placeholder="Enter your Email" required>
+          <input type="text" placeholder="Enter your Subject"> 
+          <textarea name="feedback" id="message" cols="40" rows="10" placeholder="Enter your Message here ... " required></textarea>
+          <input type="submit" value="submit" class="send">
+        </form>
+      </div>
+
+    </section>
+    <footer class="footer">
+      <p>Developed with &hearts; by Veneil Sai Indla &#169; 2024</p>
+      <a href="#" class="top"><i class='bx bxs-up-arrow-alt' ></i></a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
