@@ -94,9 +94,9 @@
     width: 100%;
     height: 60vh;
     border-radius: 100%;
-    border: 4px solid #ff00ff;
-    box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff,
-      0 0 50px #ff00ff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+    border: 4px solid #ff008c;
+    box-shadow: 0 0 20px #ff008c, 0 0 30px #ff008c, 0 0 40px #ff008c,
+      0 0 50px #ff008c, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
   }
   .home-sci a {
     display: inline-flex;
@@ -181,9 +181,9 @@
   }
   .about-text p {
     color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    padding-bottom: 10%;
+    font-size: 19px;
+    line-height: 1.5;
+    padding-bottom: 2%;
   }
   #services {
     color: aliceblue;
@@ -253,13 +253,14 @@
   
   .skillbox {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+     margin-bottom: 0px;
   }
   .container1 {
     width: 40vw;
     height: 120vh;
-    padding: 60px 60px;
+    padding: 40px 60px;
     margin-left: 50px;
   }
   .heading1 {
@@ -323,19 +324,15 @@
     width: 85%;
   }
   .progress-line.javascript span {
-    width: 70%;
+    width: 82%;
   }
   .progress-line.python span {
-    width: 75%;
+    width: 80%;
   }
   .progress-line.react span {
     width: 65%;
   }
-  .progress-line.MS span {
-    width: 65%;
-    animation: animate 3s cubic-bezier(0, 0, 1, 1) forwards;
-    transform-origin: left;
-}
+  
 
   
   .progress-line span::after {
@@ -357,10 +354,10 @@
     content: "85%";
   }
   .progress-line.javascript span::after {
-    content: "70%";
+    content: "82%";
   }
   .progress-line.python span::after {
-    content: "75%";
+    content: "80%";
   }
   .progress-line.react span::after {
     content: "65%";
@@ -533,7 +530,7 @@
     position: absolute;
     text-align: center;
     left: 50%;
-    bottom: -5px;
+    bottom: -10px;
     transform: translateX(-50px);
     font-size: 17px;
     font-weight: 500;
@@ -639,8 +636,8 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: start; /* move content to top instead of center */
     gap: 3rem;
-    padding: 20px 30px; /* reduce top padding */
-    margin-top: 30px;
+    padding: 0.05px 30px; /* reduce top padding */
+    margin-top: 1px;
   }
   .contact-text h2 {
     font-size: 90px;
